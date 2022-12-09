@@ -1,0 +1,26 @@
+name: thesis-core
+channels:
+  - pytorch
+  - conda-forge
+  - rdkit
+  - nvidia
+  - huggingface
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.7
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - tqdm
+  - tensorboard
+  - openpyxl
+  - chembl_webresource_client
+  - rdkit
+  - more-itertools
+  - ca-certificates
+  - certifi
+  - openssl
